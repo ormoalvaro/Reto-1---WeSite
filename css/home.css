@@ -1,0 +1,53 @@
+/* HOME */
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    font-family: sans-serif;
+    color: #B22222;
+}
+
+fieldset {
+    font-family: sans-serif;
+    border: 5px solid #B22222;
+    background: #ddd;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+fieldset legend {
+    background: #B22222;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 32px;
+    border-radius: 5px;
+    box-shadow: 0 0 0 5px #ddd;
+    margin-left: 20px;
+}
+
+.reset-this {
+    all: initial;
+}
+
+.redo-fieldset {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.redo-legend {
+    color: black;
+}
+
+button {
+    font-family: sans-serif;
+    background: #B22222;
+    position: absolute;
+    bottom: 0;
+}
+
+.next {
+    background: #B22222;
+}
