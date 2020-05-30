@@ -1,6 +1,5 @@
 goNextPage();
 
-
 function goNextPage() {
 
     let element = document.getElementById("button");
