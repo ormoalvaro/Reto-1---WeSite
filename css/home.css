@@ -1,25 +1,25 @@
-/* HOME */
+* {
+    font-family: sans-serif;
+}
 
-.container {
+.container-fluid {
     display: flex;
     justify-content: center;
 }
 
-.title {
-    font-family: sans-serif;
-    color: #B22222;
+.jumbotron {
+    color: #343a40;
 }
 
 fieldset {
-    font-family: sans-serif;
-    border: 5px solid #B22222;
+    border: 5px solid #343a40;
     background: #ddd;
     border-radius: 5px;
     padding: 15px;
 }
 
 fieldset legend {
-    background: #B22222;
+    background: #343a40;
     color: #fff;
     padding: 5px 10px;
     font-size: 32px;
@@ -41,13 +41,18 @@ fieldset legend {
     color: black;
 }
 
-button {
-    font-family: sans-serif;
-    background: #B22222;
-    position: absolute;
-    bottom: 0;
+.btn-primary,
+.btn-primary:active,
+.btn-primary:visited {
+    width: 150px;
+    background-color: #343a40 !important;
 }
 
-.next {
-    background: #B22222;
+.btn-primary:hover {
+    background-color: black !important;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
 }
